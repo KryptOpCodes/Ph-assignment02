@@ -1,4 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;700;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
+
+/* Nav section */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1170px;
+  margin: 50px auto 0px auto;
+}
+
+.logo-title {
+  display: flex;
+  gap: 16.63px;
+}
+
+.title {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.tours {
+  color: #ff5400;
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  gap: 44px;
+}
+
+.links li {
+  display: inline;
+}
+
+.links a {
+  text-decoration: none;
+  color: #424247;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Header section */
