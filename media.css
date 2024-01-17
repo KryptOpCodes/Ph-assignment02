@@ -1,0 +1,45 @@
+/* Responsiveness for smaller device  */
+@media screen and (max-width: 600px) {
+  /* Nav section */
+  .links {
+    display: none;
+  }
+
+  .menu-icon {
+    display: inline;
+  }
+
+  .menu-icon i {
+    font-size: 24px;
+  }
+
+  nav {
+    max-width: 335px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .title {
+    font-size: 1.31rem;
+  }
+
+  .logo {
+    width: 28px;
+  }
+
+  /* Header section */
+  header {
+    max-width: 335px;
+  }
+
+  .header-title {
+    font-size: 1.4rem;
+  }
+
+  .header-des {
+    font-size: 0.88rem;
+  }
+}
